@@ -1,0 +1,66 @@
+.staff-area {
+  background: #f4fdfc;
+  padding: 50px 20px;
+}
+
+.staff-area h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+.staff-area .intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  color: #555;
+}
+
+.staff-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.staff-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s;
+}
+
+.staff-card:hover {
+  transform: translateY(-5px);
+}
+
+.staff-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.staff-card h3 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+  color: #00796b;
+}
+
+.staff-card .position {
+  font-weight: bold;
+  color: #d32f2f;
+  margin-bottom: 10px;
+}
+
+.staff-card p {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.6;
+}
